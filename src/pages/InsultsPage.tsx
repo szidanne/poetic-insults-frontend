@@ -16,7 +16,7 @@ const InsultsPage: React.FC = () => {
 
   return (
     <div className="max-w-4xl w-full flex flex-col gap-y-4 items-center">
-      <h1>Poetic Roast</h1>
+      <h1>Roast me</h1>
       <div className="flex flex-col gap-y-12 items-center">
         <div className="animate-fade-in" style={{ animationDelay: "0.3s" }}>
           <InsultDisplay>{insult}</InsultDisplay>
